@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodingKata09
+namespace Checkout
 {
     class Program
     {

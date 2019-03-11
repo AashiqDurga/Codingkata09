@@ -1,4 +1,5 @@
 using System;
+using Checkout;
 using NUnit.Framework;
 
 namespace Tests
@@ -20,14 +21,6 @@ namespace Tests
             var price = checkoutTotalCalculator.CalculateTotalPrice();
 
             Assert.AreEqual(0, price);
-        }
-    }
-
-    public class CheckoutTotalCalculator
-    {
-        public decimal CalculateTotalPrice()
-        {
-            return 0;
         }
     }
 }
